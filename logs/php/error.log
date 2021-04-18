@@ -1,0 +1,95 @@
+[12-Apr-2021 05:56:12 UTC] PHP Warning:  require_once(C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-admin\includes\class-wp-site-health.php): failed to open stream: No such file or directory in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:12 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:12 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:12 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:12 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:12 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:12 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-admin\includes\class-wp-site-health.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:12 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:12 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:12 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:12 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:12 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:12 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:13 UTC] PHP Warning:  require_once(C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-admin\includes\update.php): failed to open stream: No such file or directory in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\class-wp-customize-manager.php on line 404
+[12-Apr-2021 05:56:13 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:13 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:13 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:13 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:13 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:13 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:13 UTC] PHP   6. do_action() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php:423
+[12-Apr-2021 05:56:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\plugin.php:484
+[12-Apr-2021 05:56:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\class-wp-hook.php:316
+[12-Apr-2021 05:56:13 UTC] PHP   9. _wp_customize_include() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\class-wp-hook.php:292
+[12-Apr-2021 05:56:13 UTC] PHP  10. WP_Customize_Manager->__construct() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\theme.php:3402
+[12-Apr-2021 05:56:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-admin\includes\update.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\class-wp-customize-manager.php on line 404
+[12-Apr-2021 05:56:13 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:13 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:13 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:13 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:13 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:13 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:13 UTC] PHP   6. do_action() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php:423
+[12-Apr-2021 05:56:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\plugin.php:484
+[12-Apr-2021 05:56:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\class-wp-hook.php:316
+[12-Apr-2021 05:56:13 UTC] PHP   9. _wp_customize_include() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\class-wp-hook.php:292
+[12-Apr-2021 05:56:13 UTC] PHP  10. WP_Customize_Manager->__construct() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-includes\theme.php:3402
+[12-Apr-2021 05:56:19 UTC] PHP Warning:  require_once(C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php): failed to open stream: No such file or directory in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:19 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:19 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:19 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:19 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:19 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:19 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:19 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:19 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:19 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:19 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:19 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:19 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:19 UTC] PHP Warning:  require_once(C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php): failed to open stream: No such file or directory in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:19 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:19 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:19 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:19 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:19 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:19 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:19 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:19 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:19 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:19 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:19 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:19 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:26 UTC] PHP Warning:  require_once(C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php): failed to open stream: No such file or directory in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:26 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:26 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:26 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:26 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:26 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:26 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:26 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:26 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:26 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:26 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:26 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:26 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:26 UTC] PHP Warning:  require_once(C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php): failed to open stream: No such file or directory in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:26 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:26 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:26 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:26 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:26 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:26 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 05:56:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public/wp-admin/includes/class-wp-site-health.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-settings.php on line 542
+[12-Apr-2021 05:56:26 UTC] PHP Stack trace:
+[12-Apr-2021 05:56:26 UTC] PHP   1. {main}() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:0
+[12-Apr-2021 05:56:26 UTC] PHP   2. require() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\index.php:17
+[12-Apr-2021 05:56:26 UTC] PHP   3. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-blog-header.php:13
+[12-Apr-2021 05:56:26 UTC] PHP   4. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-load.php:37
+[12-Apr-2021 05:56:26 UTC] PHP   5. require_once() C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-config.php:77
+[12-Apr-2021 09:22:25 UTC] PHP Parse error:  syntax error, unexpected 'the_permalink' (T_STRING) in C:\Users\Gurjot Singh\Local Sites\gursikhiorg\app\public\wp-content\themes\Breathe\index.php on line 5
